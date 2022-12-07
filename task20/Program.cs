@@ -1,0 +1,10 @@
+﻿Console.WriteLine("Введите кооринаты x первой точки");
+int x1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите кооринаты y первой точки");
+int y1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите кооринаты x второй точки");
+int x2 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите кооринаты y второй точки");
+int y2 = Convert.ToInt32(Console.ReadLine());
+double res = Math.Sqrt(Math.Pow(y1 - x1, 2) + Math.Pow(x2 -y2, 2));
+Console.WriteLine($"Расстояние между точками = {res:f2}");
